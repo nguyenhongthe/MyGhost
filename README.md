@@ -1,6 +1,6 @@
 # My Ghost
 
-A minimal, ghost theme for [Nguyễn Hồng Thế Blog](https://nguyenhongthe.net).
+A minimal ghost theme for [Nguyễn Hồng Thế Blog](https://nguyenhongthe.net).
 
 # Instructions
 
