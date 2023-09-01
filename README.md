@@ -68,6 +68,10 @@ Khởi động lại Ghost blog và giao diện sẽ được liệt kê trong k
 yarn zip
 ```
 
+## Đóng góp và báo lỗi
+
+Repo này được đồng bộ tự động với `repo.vnscdn.com`. Nếu bạn muốn đóng góp hoặc báo lỗi, hãy truy cập vào repo chính [nguyenhongthe/repo.vnscdn.com](https://github.com/nguyenhongthe/repo.vnscdn.com/tree/main/packages/myghost) nơi giao diện chính thức được phát triển.
+
 ## Bản quyền và giấy phép
 
 Copyright (c) 2013-2023 Nguyễn Hồng Thế Blog - Phát hành theo giấy phép [MIT](LICENSE).
