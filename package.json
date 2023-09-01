@@ -1,6 +1,6 @@
 {
     "name": "myghost",
-    "description": "My Ghost theme for the Ghost",
+    "description": "Giao diện tối giản cho Ghost Blog",
     "version": "1.0.0",
     "private": true,
     "engines": {
