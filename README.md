@@ -55,7 +55,7 @@ Bây giờ bạn có thể chỉnh sửa các tệp `/assets/css/`, các tệp n
 
 ```bash
 # Tạo liên kết tượng trưng
-ln -s /dir/to/your/themes/myghost /dir/to/your/ghost-site/content/themes/myghost
+ln -s /dir/to/your/themes/MyGhost /dir/to/your/ghost-site/content/themes/myghost
 ```
 
 Khởi động lại Ghost blog và giao diện sẽ được liệt kê trong khu vực `Design` của Ghost Admin.

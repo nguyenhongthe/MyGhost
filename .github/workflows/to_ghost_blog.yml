@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '.github/workflows/to_ghost_blog.yml'
 jobs:
   deploy:
     name: Deploy MyGhost theme to nguyenhongthe.net
