@@ -70,7 +70,7 @@ yarn zip
 
 ## Đóng góp và báo lỗi
 
-Repo này được đồng bộ tự động với `repo.vnscdn.com`. Nếu bạn muốn đóng góp hoặc báo lỗi, hãy truy cập vào repo chính [nguyenhongthe/repo.vnscdn.com](https://github.com/nguyenhongthe/repo.vnscdn.com/tree/main/packages/myghost) nơi giao diện chính thức được phát triển.
+Repo này được đồng bộ tự động với `repo.vnscdn.com`. Nếu bạn muốn đóng góp hoặc báo lỗi, hãy truy cập vào repo chính [nguyenhongthe/repo.vnscdn.com](https://github.com/nguyenhongthe/repo.vnscdn.com/tree/main/packages/myghost) nơi mã gốc được phát triển.
 
 ## Bản quyền và giấy phép
 
