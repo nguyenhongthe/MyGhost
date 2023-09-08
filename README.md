@@ -1,4 +1,4 @@
-# My Ghost
+# MyGhost
 
 Giao diện tối giản cho [Nguyễn Hồng Thế Blog](https://nguyenhongthe.net).
 
