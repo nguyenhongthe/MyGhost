@@ -19,6 +19,10 @@ h1.gh-article-title.custom-author {
     padding-bottom: 8rem;
 }
 
+.page-template .gh-main {
+    padding-bottom: 8rem;
+}
+
 .tag-template .gh-main,
 .author-template .gh-main {
     padding-top: 8vmin;
