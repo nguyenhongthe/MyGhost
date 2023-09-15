@@ -1,8 +1,8 @@
 {
     "name": "myghost",
     "description": "Giao diện tối giản cho Ghost Blog",
-    "version": "1.0.1",
-    "date": "2023-09-14",
+    "version": "1.0.2",
+    "date": "2023-09-15",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -74,6 +74,11 @@
                     "Roboto"
                 ],
                 "default": "Modern sans-serif"
+            },
+            "github": {
+                "type": "text",
+                "default": "nguyenhongthe",
+                "description": "Github username"
             }
         }
     },
@@ -83,7 +88,7 @@
         "zip": "gulp zip"
     },
     "devDependencies": {
-        "@tryghost/shared-theme-assets": "2.4.2",
+        "@tryghost/shared-theme-assets": "^2.4.2",
         "autoprefixer": "10.4.15",
         "beeper": "2.1.0",
         "cssnano": "6.0.1",
@@ -97,8 +102,5 @@
         "postcss": "8.4.29",
         "postcss-easy-import": "4.0.0",
         "pump": "3.0.0"
-    },
-    "dependencies": {
-        "@tryghost/shared-theme-assets": "^2.4.2"
     }
 }

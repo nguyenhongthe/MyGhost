@@ -9,6 +9,16 @@
     --head-nav-gap: 3.2rem;
 }
 
+h1.gh-article-title.custom-author {
+    font-size: 3.4rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}
+
 .tag-template .gh-main,
 .author-template .gh-main {
     padding-top: 8vmin;
@@ -350,7 +360,7 @@
 }
 
 .gh-article-title {
-    font-size: 7.4rem;
+    font-size: 4.4rem;
     font-weight: 600;
     line-height: 1;
 }
@@ -358,7 +368,7 @@
 .gh-article-excerpt {
     max-width: 920px;
     margin-top: 1.6rem;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     line-height: 1.35;
     color: var(--color-darker-gray);
 }

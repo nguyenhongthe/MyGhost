@@ -77,6 +77,23 @@
             <div class="gh-powered-by">
                 <a href="https://ghost.org/" target="_blank" rel="noopener">{{t "Powered by Ghost"}}</a>, {{t "using the"}} <a href="https://github.com/nguyenhongthe/myghost/" target="_blank" rel="noopener">{{t "My Ghost theme"}}</a>, {{t "and hosted on"}} <a href="https://www.vultr.com/?ref=9226911-8H" target="_blank" rel="noopener">Vultr</a>.
             </div>
+            <div class="gh-social-links">
+                {{#if @site.twitter}}
+                    <a href="https://twitter.com/{{@site.twitter}} " target="_blank" rel="noopener">
+                        {{> "icons/twitter"}}
+                    </a>
+                {{/if}}
+                {{#if @site.facebook}}
+                    <a href="https://facebook.com/{{@site.facebook}}" target="_blank" rel="noopener">
+                        {{> "icons/facebook"}}
+                    </a>
+                {{/if}}
+                {{#if @custom.github}}
+                    <a href="https://github.com/{{@custom.github}}" target="_blank" rel="noopener">
+                        {{> "icons/github"}}
+                    </a>
+                {{/if}}
+            </div>
         </div>
     </footer>
 
