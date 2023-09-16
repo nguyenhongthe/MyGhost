@@ -9,6 +9,10 @@
     --head-nav-gap: 3.2rem;
 }
 
+h1.site-title {
+    font-size: unset;
+}
+
 h1.gh-article-title.custom-author {
     font-size: 3.4rem;
     font-weight: 600;

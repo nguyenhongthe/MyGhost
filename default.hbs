@@ -20,8 +20,12 @@
                     <a class="gh-head-logo" href="{{@site.url}}">
                         {{#if @site.logo}}
                             <img src="{{@site.logo}}" alt="{{@site.title}}">
-                        {{else}}
-                            {{@site.title}}
+                        {{else}}{{! Nếu là trang chủ thì bọc site.title trong thẻ h1, còn không thì bọc trong thẻ span }}
+                            {{#is "home"}}
+                                <h1 class="site-title">{{@site.title}}</h1>
+                            {{else}}
+                                {{@site.title}}
+                            {{/is}}
                         {{/if}}
                     </a>
                 </div>
