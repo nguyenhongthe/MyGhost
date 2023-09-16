@@ -526,11 +526,15 @@ h1.gh-article-title.custom-author {
     color: initial;
 }
 
-
+/* Share Block */
 .share-block {
     margin-top: 8rem;
     text-align: center;
+    border-top: 1px solid #00000013;
+    border-bottom: 1px solid #00000013;
+    padding: 25px 0 15px;
 }
+
 .share-block span {
     display: inline-block;
     font-weight: bold;
