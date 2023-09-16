@@ -518,6 +518,30 @@ h1.gh-article-title.custom-author {
     font-size: 1.3rem;
 }
 
+.gh-powered-by a {
+    color: initial;
+}
+
+
+.share-block {
+    margin-top: 8rem;
+    text-align: center;
+}
+.share-block span {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+.share-block a {
+    display: inline-block;
+    transition: all 0.3s;
+    margin: 0 0.25rem;
+}
+.share-block a:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width: 767px) {
     .gh-latest {
         margin-bottom: 8rem;
