@@ -78,7 +78,9 @@
             data-title="{{t "Don't miss out on the latest issues."}}"
             data-description="{{t "Just enter your email address and hit follow."}}"
             {{!-- data-icon="{{@site.icon}}" --}}
-            data-site="/" data-locale="vi" async>
+            data-site="{{@site.url}}"
+            data-locale="vi"
+            async>
         </script>
     </div>    
 
@@ -93,21 +95,21 @@
                 {{@site.title}} © 2013 - {{date format="YYYY"}}
             </div>            
             <div class="gh-powered-by">
-                {{t "Powered by"}} <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>, {{t "using the theme"}} <a href="https://github.com/nguyenhongthe/myghost/" target="_blank" rel="noopener">{{t "MyGhost"}}</a>, {{t "and hosted on"}} <a href="https://www.vultr.com/?ref=9226911-8H" target="_blank" rel="noopener">Vultr</a>.
+                {{t "Powered by"}} <a href="https://ghost.org/" target="_blank" rel="noopener" title="Ghost">Ghost</a>, {{t "using the theme"}} <a href="https://nguyenhongthe.net/myghost-giao-dien-toi-gian-cho-ghost-blog/" target="_blank" rel="noopener" title="{{t "MyGhost"}}">{{t "MyGhost"}}</a>, {{t "and hosted on"}} <a href="https://www.vultr.com/?ref=9226911-8H" target="_blank" rel="noopener" title="Vultr">Vultr</a>.
             </div>
             <div class="gh-social-links">
                 {{#if @site.twitter}}
-                    <a href="https://twitter.com/{{@site.twitter}} " target="_blank" rel="noopener">
+                    <a href="https://twitter.com/{{@site.twitter}} " target="_blank" rel="noopener" title="twitter">
                         {{> "icons/twitter"}}
                     </a>
                 {{/if}}
                 {{#if @site.facebook}}
-                    <a href="https://facebook.com/{{@site.facebook}}" target="_blank" rel="noopener">
+                    <a href="https://facebook.com/{{@site.facebook}}" target="_blank" rel="noopener" title="facebook">
                         {{> "icons/facebook"}}
                     </a>
                 {{/if}}
                 {{#if @custom.github}}
-                    <a href="https://github.com/{{@custom.github}}" target="_blank" rel="noopener">
+                    <a href="https://github.com/{{@custom.github}}" target="_blank" rel="noopener" title="github">
                         {{> "icons/github"}}
                     </a>
                 {{/if}}
