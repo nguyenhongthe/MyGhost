@@ -69,6 +69,19 @@
 
     {{{body}}}{{! body is the main content of the page }}
 
+    <div style="height: 40vmin;min-height: 360px">
+        <script src="https://cdn.jsdelivr.net/ghost/signup-form@~0.1/umd/signup-form.min.js"
+            data-background-color="#F1F3F4"
+            data-text-color="#000000"
+            data-button-color="#15171A"
+            data-button-text-color="#FFFFFF"
+            data-title="{{t "Don't miss out on the latest issues."}}"
+            data-description="{{t "Just enter your email address and hit follow."}}"
+            {{!-- data-icon="{{@site.icon}}" --}}
+            data-site="/" data-locale="vi" async>
+        </script>
+    </div>    
+
     <footer class="gh-foot{{#unless @site.secondary_navigation}} no-menu{{/unless}} gh-outer">
         <div class="gh-foot-inner gh-inner">
             {{#if @site.secondary_navigation}}
