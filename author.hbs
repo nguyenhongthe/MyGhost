@@ -4,7 +4,7 @@
     {{#author}}
         <section class="gh-pagehead">
             {{#if profile_image}}
-                <img class="gh-author-image gh-pagehead-image" src="{{profile_image}}" alt="{{name}}" width="80" height="80">
+                <img class="gh-author-image gh-pagehead-image" src="{{profile_image}}" alt="{{name}}" width="80" height="80" title="{{name}}" loading="lazy">
             {{else}}
                 <span class="gh-author-icon">{{> icons/avatar}}</span>
             {{/if}}
