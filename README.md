@@ -70,8 +70,8 @@ yarn zip
 
 ## Đóng góp và báo lỗi
 
-Repo này được đồng bộ tự động với `repo.vnscdn.com`. Nếu bạn muốn đóng góp hoặc báo lỗi, hãy truy cập vào repo chính [nguyenhongthe/repo.vnscdn.com](https://github.com/nguyenhongthe/repo.vnscdn.com/tree/main/packages/myghost) nơi mã gốc được phát triển.
+Nếu bạn gặp lỗi khi sử dụng giao diện, hoặc bạn muốn đóng góp cho giao diện, hãy tạo một issue mới tại [nguyenhongthe/MyGhost/issues](https://github.com/nguyenhongthe/MyGhost/issues).
 
 ## Bản quyền và giấy phép
 
-Copyright (c) 2013-2023 Nguyễn Hồng Thế Blog - Phát hành theo giấy phép [MIT](LICENSE).
+Copyright (c) 2012-2023 Nguyễn Hồng Thế Blog - Phát hành theo giấy phép [MIT](LICENSE).
