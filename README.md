@@ -70,7 +70,9 @@ yarn zip
 
 ## Đóng góp và báo lỗi
 
-Nếu bạn gặp lỗi khi sử dụng giao diện, hoặc bạn muốn đóng góp cho giao diện, hãy tạo một issue mới tại [nguyenhongthe/MyGhost/issues](https://github.com/nguyenhongthe/MyGhost/issues).
+- Nếu bạn gặp lỗi khi sử dụng giao diện, hoặc bạn muốn góp ý cho giao diện, hãy tạo một issue mới tại [nguyenhongthe/MyGhost/issues](https://github.com/nguyenhongthe/MyGhost/issues).
+
+- Repo này được đồng bộ tự động với private monorepo [nguyenhongthe/repo.vnscdn.com](https://github.com/nguyenhongthe/repo.vnscdn.com) thông qua Github Action. Vui lòng không tạo pull request trực tiếp tại repo này.
 
 ## Bản quyền và giấy phép
 
