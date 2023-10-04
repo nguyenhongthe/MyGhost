@@ -62,6 +62,12 @@ Khởi động lại Ghost blog và giao diện sẽ được liệt kê trong k
 
 ## Các lệnh hữu ích
 
+Kiểm tra tính tương thích của theme với gscan:
+
+```bash
+yarn gscan PATH_TO_THEME
+```
+
 Đóng gói các tệp của giao diện vào tệp `dist/MyGhost.zip`, bạn có thể tải tệp này lên website của bạn để cài đặt giao diện thủ công.
 
 ```bash
