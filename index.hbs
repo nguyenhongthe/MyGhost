@@ -124,6 +124,18 @@
                         </div>
                     </section>
                 {{/get}}
+
+
+                {{#if @site.recommendations_enabled}}
+                    <section class="gh-section">
+                        <h3 class="gh-section-title">{{t "Recommendations"}}</h3>
+
+                        <div class="gh-recommendations">
+                            {{recommendations}}
+                            <button data-portal="recommendations">{{t "See all"}} {{> "icons/arrow-right"}}</button>
+                        </div>
+                    </section>
+                {{/if}}
         </div>
     </div>
 </main>
