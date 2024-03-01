@@ -1,6 +1,10 @@
 # CHANGELOG
 MyGhost - https://github.com/nguyenhongthe/MyGhost
 
+## v1.0.5 - 28/10/2023
+    - Sửa lỗi nhỏ, cập nhật package.
+    - Thêm block liên kết hữu ích vào sidebar phải.
+
 ## v1.0.4 - 24/09/2023:
     - Sửa lỗi nhỏ, cải thiện tính ổn định.
 
