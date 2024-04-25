@@ -82,4 +82,4 @@ yarn zip
 
 ## Bản quyền và giấy phép
 
-Copyright (c) 2012-2023 Nguyễn Hồng Thế Blog - Phát hành theo giấy phép [MIT](LICENSE).
+Copyright (c) 2012-2024 Nguyễn Hồng Thế Blog - Phát hành theo giấy phép [MIT](LICENSE).
