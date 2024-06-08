@@ -1,8 +1,8 @@
 {
     "name": "myghost",
     "description": "Giao diện tối giản cho Ghost Blog",
-    "version": "1.0.5",
-    "date": "2023-10-28",
+    "version": "1.0.6",
+    "date": "2024-06-08",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
@@ -92,18 +92,20 @@
     },
     "devDependencies": {
         "@tryghost/shared-theme-assets": "^2.4.3",
-        "autoprefixer": "10.4.18",
+        "autoprefixer": "10.4.19",
         "beeper": "2.1.0",
-        "cssnano": "6.1.0",
-        "gscan": "4.42.0",
-        "gulp": "4.0.2",
+        "cssnano": "7.0.2",
+        "gscan": "4.43.1",
+        "gulp": "5.0.0",
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
         "gulp-postcss": "10.0.0",
         "gulp-uglify": "3.0.2",
-        "gulp-zip": "6.0.0",
-        "postcss": "8.4.36",
+        "gulp-zip": "5.1.0",
+        "ordered-read-streams": "^2.0.0",
+        "postcss": "8.4.38",
         "postcss-easy-import": "4.0.0",
         "pump": "3.0.0"
-    }
+    },
+    "dependencies": {}
 }
