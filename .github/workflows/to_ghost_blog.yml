@@ -8,7 +8,7 @@ jobs:
   deploy:
     name: Deploy MyGhost theme to nguyenhongthe.net
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'release' && github.ref == 'refs/heads/main'
     steps:
       - uses: actions/checkout@v3
       - name: Deploy Ghost Theme
