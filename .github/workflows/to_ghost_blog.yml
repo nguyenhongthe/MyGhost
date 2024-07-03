@@ -1,9 +1,7 @@
 name: Deploy MyGhost Theme
 on:
-  pull_request:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
 jobs:
   deploy:
     name: Deploy MyGhost theme to nguyenhongthe.net

@@ -1,6 +1,9 @@
 # CHANGELOG
 MyGhost - https://github.com/nguyenhongthe/MyGhost
 
+## v1.0.8 - 03/07/2024
+    - Fix github action on release.
+
 ## v1.0.7 - 03/07/2024
     - Update github action.
 
