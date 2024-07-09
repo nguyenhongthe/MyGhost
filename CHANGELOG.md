@@ -1,6 +1,12 @@
 # CHANGELOG
 MyGhost - https://github.com/nguyenhongthe/MyGhost
 
+## v1.0.9 - 09/07/2024
+    - Thay đổi svg icon cho các mạng xã hội.
+    - Chuyển đổi Twitter sang X.
+    - Cập nhật package.
+    - Sửa lỗi nhỏ, cải thiện tính ổn định.
+
 ## v1.0.8 - 03/07/2024
     - Fix github action on release.
 
