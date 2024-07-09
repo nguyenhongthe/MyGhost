@@ -1,7 +1,7 @@
 {
     "name": "myghost",
     "description": "Giao diện tối giản cho Ghost Blog",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "date": "2024-07-09",
     "private": true,
     "engines": {

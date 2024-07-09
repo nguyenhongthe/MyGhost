@@ -68,6 +68,12 @@ Kiểm tra tính tương thích của theme với gscan:
 yarn gscan PATH_TO_THEME
 ```
 
+hoặc
+
+```bash
+yarn test
+```
+
 Đóng gói các tệp của giao diện vào tệp `dist/MyGhost.zip`, bạn có thể tải tệp này lên website của bạn để cài đặt giao diện thủ công.
 
 ```bash
