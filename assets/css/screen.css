@@ -636,7 +636,16 @@ h1.gh-article-title.custom-author {
 }
 
 /* Blockquote */
+.ht-blockquote-custom {
+    margin-top: calc(2.4em* var(--content-spacing-multiplier, 1));
+    margin-left: calc(2.4em* var(--content-spacing-multiplier, 3.5));
+}
+
 .kg-blockquote-alt {
+    padding: 0 !important;
+}
+
+.ht-blockquote-custom, .kg-blockquote-alt {
     font-size: 1.2em !important;
     color: #000000 !important;
     font-family: fantasy;
@@ -644,12 +653,18 @@ h1.gh-article-title.custom-author {
 }
 
 /* Blockquote for Safari */
-_::-webkit-full-page-media, _:future, :root .kg-blockquote-alt {
+_::-webkit-full-page-media, _:future, :root .ht-blockquote-custom {
+    margin-top: calc(2.4em* var(--content-spacing-multiplier, 1));
+    margin-left: calc(2.4em* var(--content-spacing-multiplier, 3));
+}
+
+_::-webkit-full-page-media, _:future, :root .ht-blockquote-custom, .kg-blockquote-alt {
     font-size: 1.2em !important;
     font-family: Noteworthy;
     font-size: 1.2em!important;
     font-weight: 600!important;
 }
+
 
 @media (max-width: 767px) {
     .gh-latest {
@@ -693,6 +708,34 @@ _::-webkit-full-page-media, _:future, :root .kg-blockquote-alt {
 
     .gh-pagehead {
         margin-bottom: 4.8rem;
+    }
+    /* Blockquote */
+
+    .ht-blockquote-custom, .kg-blockquote-alt {
+        color: #000 !important;
+        font-family: fantasy;
+        font-size: 1em !important;
+        font-weight: 800 !important;
+        margin: 0;
+    }
+
+    .ht-blockquote-custom {
+        border-left: #000 4px solid;
+        padding-left: 2rem;
+    }
+
+    /* Blockquote for Safari */
+    _::-webkit-full-page-media, _:future, :root .kg-blockquote-alt, .ht-blockquote-custom {
+        font-size: 1em !important;
+        font-family: Noteworthy;
+        font-weight: 600!important;
+        margin: 0;
+    }
+
+    _::-webkit-full-page-media, _:future, :root .ht-blockquote-custom {
+        border-left: #000 4px solid;
+        padding-left: 2rem;
+        margin: 0;
     }
 }
 
