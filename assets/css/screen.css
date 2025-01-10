@@ -635,6 +635,14 @@ h1.gh-article-title.custom-author {
     transform: scale(1.1);
 }
 
+/* Blockquote */
+.kg-blockquote-alt {
+    font-size: 1.2em !important;
+    color: #000000 !important;
+    font-family: fantasy;
+    font-weight: 800 !important;
+}
+
 @media (max-width: 767px) {
     .gh-latest {
         margin-bottom: 8rem;
