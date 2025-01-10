@@ -643,6 +643,14 @@ h1.gh-article-title.custom-author {
     font-weight: 800 !important;
 }
 
+/* Blockquote for Safari */
+_::-webkit-full-page-media, _:future, :root .kg-blockquote-alt {
+    font-size: 1.2em !important;
+    font-family: Noteworthy;
+    font-size: 1.2em!important;
+    font-weight: 600!important;
+}
+
 @media (max-width: 767px) {
     .gh-latest {
         margin-bottom: 8rem;
