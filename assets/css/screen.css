@@ -646,10 +646,10 @@ h1.gh-article-title.custom-author {
 }
 
 .ht-blockquote-custom, .kg-blockquote-alt {
-    font-size: 1.2em !important;
+    font-size: 1em !important;
     color: #000000 !important;
-    font-family: fantasy;
-    font-weight: 800 !important;
+    /* font-family: fantasy; */
+    font-weight: 700 !important;
 }
 
 /* Blockquote for Safari */
@@ -659,10 +659,9 @@ _::-webkit-full-page-media, _:future, :root .ht-blockquote-custom {
 }
 
 _::-webkit-full-page-media, _:future, :root .ht-blockquote-custom, .kg-blockquote-alt {
-    font-size: 1.2em !important;
-    font-family: Noteworthy;
-    font-size: 1.2em!important;
-    font-weight: 600!important;
+    font-size: 1em !important;
+    /* font-family: Noteworthy; */
+    font-weight: 700 !important;
 }
 
 
@@ -713,9 +712,9 @@ _::-webkit-full-page-media, _:future, :root .ht-blockquote-custom, .kg-blockquot
 
     .ht-blockquote-custom, .kg-blockquote-alt {
         color: #000 !important;
-        font-family: fantasy;
+        /* font-family: fantasy; */
         font-size: 1em !important;
-        font-weight: 800 !important;
+        font-weight: 700 !important;
         margin: 0;
     }
 
@@ -727,8 +726,8 @@ _::-webkit-full-page-media, _:future, :root .ht-blockquote-custom, .kg-blockquot
     /* Blockquote for Safari */
     _::-webkit-full-page-media, _:future, :root .kg-blockquote-alt, .ht-blockquote-custom {
         font-size: 1em !important;
-        font-family: Noteworthy;
-        font-weight: 600!important;
+        /* font-family: Noteworthy; */
+        font-weight: 700 !important;
         margin: 0;
     }
 
